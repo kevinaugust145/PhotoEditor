@@ -16,6 +16,8 @@
 		6FB570572C6DE58F00E6A173 /* PhotoEditorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB570562C6DE58F00E6A173 /* PhotoEditorTests.swift */; };
 		6FB570612C6DE58F00E6A173 /* PhotoEditorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB570602C6DE58F00E6A173 /* PhotoEditorUITests.swift */; };
 		6FB570632C6DE58F00E6A173 /* PhotoEditorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB570622C6DE58F00E6A173 /* PhotoEditorUITestsLaunchTests.swift */; };
+		6FB570722C6DE97700E6A173 /* SelectPictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB570712C6DE97700E6A173 /* SelectPictureViewController.swift */; };
+		6FB570742C6DF1FA00E6A173 /* EditPictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB570732C6DF1FA00E6A173 /* EditPictureViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		6FB5705C2C6DE58F00E6A173 /* PhotoEditorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoEditorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FB570602C6DE58F00E6A173 /* PhotoEditorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoEditorUITests.swift; sourceTree = "<group>"; };
 		6FB570622C6DE58F00E6A173 /* PhotoEditorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoEditorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6FB570712C6DE97700E6A173 /* SelectPictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPictureViewController.swift; sourceTree = "<group>"; };
+		6FB570732C6DF1FA00E6A173 /* EditPictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPictureViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				6FB570412C6DE58E00E6A173 /* SceneDelegate.swift */,
 				6FB570432C6DE58E00E6A173 /* ViewController.swift */,
 				6FB570452C6DE58E00E6A173 /* Main.storyboard */,
+				6FB570732C6DF1FA00E6A173 /* EditPictureViewController.swift */,
+				6FB570712C6DE97700E6A173 /* SelectPictureViewController.swift */,
 				6FB570482C6DE58F00E6A173 /* Assets.xcassets */,
 				6FB5704A2C6DE58F00E6A173 /* LaunchScreen.storyboard */,
 				6FB5704D2C6DE58F00E6A173 /* Info.plist */,
@@ -259,7 +265,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FB570442C6DE58E00E6A173 /* ViewController.swift in Sources */,
+				6FB570722C6DE97700E6A173 /* SelectPictureViewController.swift in Sources */,
 				6FB570402C6DE58E00E6A173 /* AppDelegate.swift in Sources */,
+				6FB570742C6DF1FA00E6A173 /* EditPictureViewController.swift in Sources */,
 				6FB570422C6DE58E00E6A173 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
